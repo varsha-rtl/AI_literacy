@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1350" viewBox="0 0 2200 1350">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#193255"/></marker></defs>
+<style>
+.title{font-family:Arial; font-size:46px; font-weight:700; fill:#193255} .subtitle{font-family:Arial; font-size:24px; fill:#646e78}
+.box-title{font-family:Arial; font-size:25px; font-weight:700; fill:#1e2630} .box-body{font-family:Arial; font-size:22px; fill:#1e2630}
+.footer{font-family:Arial; font-size:19px; fill:#646e78}
+</style>
+<rect width="2200" height="1350" fill="#f7fafd"/>
+<text x="70" y="75" class="title">AI and ML mental map</text>
+<text x="72" y="120" class="subtitle">The hierarchy and the two different axes: learning signal versus task output</text>
+<rect x="760" y="180" width="680" height="160" rx="24" fill="#dcedfc" stroke="#2e6fbe" stroke-width="4"/>
+<text x="1100.0" y="222" text-anchor="middle" class="box-title">ARTIFICIAL INTELLIGENCE</text>
+<text x="1100.0" y="265" text-anchor="middle" class="box-body"><tspan x="1100.0" dy="0">Broad field of intelligent behaviour</tspan><tspan x="1100.0" dy="28"></tspan></text>
+<line x1="1100" y1="340" x2="1100" y2="430" stroke="#2e6fbe" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="820" y="430" width="560" height="145" rx="24" fill="#d7f3f0" stroke="#1a8584" stroke-width="4"/>
+<text x="1100.0" y="472" text-anchor="middle" class="box-title">MACHINE LEARNING</text>
+<text x="1100.0" y="515" text-anchor="middle" class="box-body"><tspan x="1100.0" dy="0">Learns patterns from data</tspan></text>
+<rect x="105" y="690" width="545" height="175" rx="24" fill="#fff4cc" stroke="#ef9737" stroke-width="4"/>
+<text x="377.5" y="732" text-anchor="middle" class="box-title">Classical ML</text>
+<text x="377.5" y="775" text-anchor="middle" class="box-body"><tspan x="377.5" dy="0">Trees, linear models, clustering</tspan></text>
+<rect x="825" y="690" width="550" height="175" rx="24" fill="#f0e9fa" stroke="#745399" stroke-width="4"/>
+<text x="1100.0" y="732" text-anchor="middle" class="box-title">Deep learning</text>
+<text x="1100.0" y="775" text-anchor="middle" class="box-body"><tspan x="1100.0" dy="0">Multi-layer neural networks</tspan></text>
+<rect x="1550" y="690" width="545" height="175" rx="24" fill="#fce7e7" stroke="#b84646" stroke-width="4"/>
+<text x="1822.5" y="732" text-anchor="middle" class="box-title">Generative AI</text>
+<text x="1822.5" y="775" text-anchor="middle" class="box-body"><tspan x="1822.5" dy="0">Produces new content</tspan></text>
+<line x1="1100" y1="575" x2="377" y2="690" stroke="#1a8584" stroke-width="6" marker-end="url(#arrow)"/><line x1="1100" y1="575" x2="1100" y2="690" stroke="#1a8584" stroke-width="6" marker-end="url(#arrow)"/><line x1="1100" y1="575" x2="1822" y2="690" stroke="#1a8584" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="1630" y="930" width="385" height="130" rx="24" fill="#ffeed0" stroke="#ef9737" stroke-width="4"/>
+<text x="1822.5" y="972" text-anchor="middle" class="box-title">LLMs</text>
+<text x="1822.5" y="1015" text-anchor="middle" class="box-body"><tspan x="1822.5" dy="0">Language-focused generative models</tspan></text>
+<line x1="1822" y1="865" x2="1822" y2="930" stroke="#ef9737" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="115" y="1000" width="895" height="250" rx="24" fill="#eaf7f6" stroke="#1a8584" stroke-width="4"/>
+<text x="562.5" y="1042" text-anchor="middle" class="box-title">LEARNING PARADIGMS (how feedback is obtained)</text>
+<text x="562.5" y="1085" text-anchor="middle" class="box-body"><tspan x="562.5" dy="0">Supervised </tspan><tspan x="562.5" dy="22"> Unsupervised </tspan><tspan x="562.5" dy="22"> Reinforcement </tspan><tspan x="562.5" dy="22"> Self-supervised</tspan></text>
+<rect x="1190" y="1110" width="905" height="140" rx="24" fill="#efeafa" stroke="#745399" stroke-width="4"/>
+<text x="1642.5" y="1152" text-anchor="middle" class="box-title">TASK TYPES (what output is wanted)</text>
+<text x="1642.5" y="1190" text-anchor="middle" class="box-body"><tspan x="1642.5" dy="0">Classification  •  Regression</tspan><tspan x="1642.5" dy="24">Clustering  •  Anomaly detection</tspan><tspan x="1642.5" dy="24">Dimensionality reduction  •  Recommendation/ranking</tspan></text>
+<line x1="820" y1="575" x2="560" y2="1000" stroke="#1a8584" stroke-width="6" marker-end="url(#arrow)"/><line x1="1380" y1="575" x2="1640" y2="1110" stroke="#745399" stroke-width="6" marker-end="url(#arrow)"/>
+<text x="80" y="1290" class="footer">A system can combine these: for example, supervised classification or reinforcement-learning search.</text>
+</svg>

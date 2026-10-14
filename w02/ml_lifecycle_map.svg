@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1500" viewBox="0 0 2400 1500">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#193255"/></marker></defs>
+<style>.title{font-family:Arial; font-size:46px; font-weight:700; fill:#193255} .subtitle{font-family:Arial; font-size:24px; fill:#646e78} .box-title{font-family:Arial; font-size:25px; font-weight:700; fill:#1e2630} .box-body{font-family:Arial; font-size:22px; fill:#1e2630} .footer{font-family:Arial; font-size:19px; fill:#646e78}</style>
+<rect width="2400" height="1500" fill="#f7fafd"/>
+<text x="70" y="75" class="title">ML Foundations lifecycle</text>
+<text x="72" y="120" class="subtitle">The loop returns to earlier stages when evaluation or monitoring finds a problem</text>
+<rect x="80" y="210" width="600" height="210" rx="24" fill="#dcedfc" stroke="#2e6fbe" stroke-width="4"/>
+<text x="380.0" y="252" text-anchor="middle" class="box-title">1. Define the problem</text>
+<text x="380.0" y="295" text-anchor="middle" class="box-body"><tspan x="380.0" dy="0">Goal, constraints, decision, success metric</tspan></text>
+<rect x="870" y="210" width="600" height="210" rx="24" fill="#e7f6eb" stroke="#1a8584" stroke-width="4"/>
+<text x="1170.0" y="252" text-anchor="middle" class="box-title">2. Understand the data</text>
+<text x="1170.0" y="295" text-anchor="middle" class="box-body"><tspan x="1170.0" dy="0">Samples, features, labels, quality, bias</tspan></text>
+<rect x="1660" y="210" width="660" height="210" rx="24" fill="#fff4cc" stroke="#ef9737" stroke-width="4"/>
+<text x="1990.0" y="252" text-anchor="middle" class="box-title">3. Select an approach</text>
+<text x="1990.0" y="295" text-anchor="middle" class="box-body"><tspan x="1990.0" dy="0">Rule, supervised, unsupervised, RL</tspan></text>
+<rect x="1660" y="600" width="660" height="220" rx="24" fill="#f0e9fa" stroke="#745399" stroke-width="4"/>
+<text x="1990.0" y="642" text-anchor="middle" class="box-title">4. Prepare and train</text>
+<text x="1990.0" y="685" text-anchor="middle" class="box-body"><tspan x="1990.0" dy="0">Split, transform, fit parameters or policy</tspan></text>
+<rect x="870" y="600" width="600" height="220" rx="24" fill="#fce7e7" stroke="#b84646" stroke-width="4"/>
+<text x="1170.0" y="642" text-anchor="middle" class="box-title">5. Evaluate</text>
+<text x="1170.0" y="685" text-anchor="middle" class="box-body"><tspan x="1170.0" dy="0">Validation, test, metrics, baseline</tspan></text>
+<rect x="80" y="600" width="600" height="220" rx="24" fill="#dcedfc" stroke="#2e6fbe" stroke-width="4"/>
+<text x="380.0" y="642" text-anchor="middle" class="box-title">6. Use the model</text>
+<text x="380.0" y="685" text-anchor="middle" class="box-body"><tspan x="380.0" dy="0">Inference, decision, human review</tspan></text>
+<rect x="80" y="1010" width="600" height="220" rx="24" fill="#e7f6eb" stroke="#1a8584" stroke-width="4"/>
+<text x="380.0" y="1052" text-anchor="middle" class="box-title">7. Monitor and improve</text>
+<text x="380.0" y="1095" text-anchor="middle" class="box-body"><tspan x="380.0" dy="0">Drift, failures, bias, retraining</tspan></text>
+<line x1="680" y1="315" x2="870" y2="315" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/><line x1="1470" y1="315" x2="1660" y2="315" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/><line x1="1990" y1="420" x2="1990" y2="600" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/><line x1="1660" y1="710" x2="1470" y2="710" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/><line x1="870" y1="710" x2="680" y2="710" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/><line x1="380" y1="820" x2="380" y2="1010" stroke="#193255" stroke-width="6" marker-end="url(#arrow)"/>
+<path d="M80 1120 L45 1120 L45 160 L80 160 L80 210" fill="none" stroke="#b84646" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="840" y="940" width="610" height="290" rx="24" fill="#eaf7f6" stroke="#1a8584" stroke-width="4"/>
+<text x="1145.0" y="982" text-anchor="middle" class="box-title">PARADIGMS</text>
+<text x="1145.0" y="1025" text-anchor="middle" class="box-body"><tspan x="1145.0" dy="0">Supervised: labelled targets</tspan><tspan x="1145.0" dy="21">Unsupervised: structure</tspan><tspan x="1145.0" dy="21">Reinforcement: rewards</tspan><tspan x="1145.0" dy="21">Self-supervised: targets from data</tspan></text>
+<rect x="1540" y="940" width="780" height="290" rx="24" fill="#efeafa" stroke="#745399" stroke-width="4"/>
+<text x="1930.0" y="982" text-anchor="middle" class="box-title">TASK TYPES</text>
+<text x="1930.0" y="1025" text-anchor="middle" class="box-body"><tspan x="1930.0" dy="0">Classification, regression, clustering,</tspan><tspan x="1930.0" dy="21">anomaly detection, dimensionality reduction, ranking</tspan><tspan x="1930.0" dy="21">These are outputs, not learning paradigms.</tspan></text>
+<rect x="810" y="1280" width="1510" height="160" rx="24" fill="#fff5e0" stroke="#ef9737" stroke-width="4"/>
+<text x="1565.0" y="1322" text-anchor="middle" class="box-title">SEMICONDUCTOR APPLICATION: RL floorplanning</text>
+<text x="1565.0" y="1365" text-anchor="middle" class="box-body"><tspan x="1565.0" dy="0">Evaluate congestion, timing, power, area, legality, and runtime.</tspan><tspan x="1565.0" dy="20">Limits: reward mismatch, distribution shift, tool dependence, human sign-off.</tspan></text>
+</svg>
